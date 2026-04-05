@@ -3,6 +3,7 @@
 /local.properties
 /.idea
 /.kotlin
+/.gradle-user-home
 /build
 /captures
 **/build

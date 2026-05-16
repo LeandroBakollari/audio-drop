@@ -1,46 +1,39 @@
 # AudioDrop
 
-AudioDrop is a starter Android Studio project for a mobile audio listener app built with Kotlin and Jetpack Compose.
+AudioDrop is a simple Android app for organizing and listening to audio files.
 
-The current version includes:
-- A `Home` screen with quick actions and recent items
-- A `Player` screen with playback controls UI
-- A `Library` screen with default folders and sample media
-- A clean project structure that is easy to expand for a university course project
+The app is made for students who use audio for learning, such as recorded lectures, audiobooks, language practice, podcasts, and revision recordings. It helps keep these files organized instead of mixing everything together.
 
-## What you need on your PC
+## What The App Does
 
-Install:
-1. Android Studio
-2. Android SDK
-3. An Android emulator or Android phone with USB debugging
+- Shows audio files in a clean library.
+- Separates Music and Audiobooks.
+- Lets users create folders for different subjects or study topics.
+- Shows Music folders as playlists.
+- Prevents playlists from containing other folders.
+- Lets users import audio files from the device.
+- Plays audio with controls like play, pause, next, previous, skip, repeat, and speed.
+- Supports audiobook chapters and saved progress.
+- Keeps a mini player visible while moving between pages.
+- Includes dark mode and a sleep timer.
 
-## How to run it
+## Included Test Audio
 
-1. Open Android Studio
-2. Click `Open`
-3. Select this folder:
-   `C:\Users\STORM\OneDrive - Universiteti Metropolitan Tirana\Documents\GitHub\audio-drop`
-4. Wait for Gradle sync
-5. Create an emulator in `Device Manager`
-6. Press `Run`
+The project includes only two music files for testing playback:
 
-## What this version does now
+- `5SOS - Young Blood.mp3`
+- `Ashes - Stellar.mp3`
 
-- Home screen
-- Library screen
-- Player screen
-- Sample data only
+Users can add more audio from their device using the Import audio button inside the app.
 
-## What to build next
+## How To Run
 
-1. Real audio playback with Media3
-2. Device file scanning
-3. Room database for recents and progress
-4. Folder actions: create, rename, delete, move
-5. Playlist support
-6. YouTube URL validation and metadata
+1. Open the project in Android Studio.
+2. Let Gradle sync.
+3. Run the app on an emulator or Android device.
 
-## Important YouTube note
+Android Studio will create `local.properties` automatically for the local SDK path.
 
-For safety, it is better to treat YouTube as a pasted-link streaming feature, not a direct downloader.
+## Submission Note
+
+Submit the project source code and the working APK. Do not include generated folders such as `.gradle`, `build`, `app/build`, `.idea`, or `local.properties`.

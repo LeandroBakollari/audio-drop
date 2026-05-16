@@ -9,7 +9,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AudioDrop">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.PlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PlaylistDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PlaylistsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FolderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
